@@ -69,6 +69,5 @@ This repository will be continuously updated as I complete new labs, projects, a
 ![Autopsy Windows Forensics Investigation](autopsy.png)
 ### Autopsy Forensic Report
 
-### Autopsy Forensic Report
+![Autopsy Forensic Report](./Autopsy%20Forensic%20Report.png)
 
-![Autopsy Forensic Report](autopsy%20report.png)
