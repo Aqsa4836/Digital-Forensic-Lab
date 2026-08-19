@@ -67,3 +67,6 @@ My goal is to build practical DFIR skills by investigating realistic scenarios, 
 This repository will be continuously updated as I complete new labs, projects, and investigations. 
 ### Evidence Screenshot
 ![Autopsy Windows Forensics Investigation](autopsy.png)
+### Autopsy Forensic Report
+
+![Autopsy Forensic Report](autopsy%20report.png)
