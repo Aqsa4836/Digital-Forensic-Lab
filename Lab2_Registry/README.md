@@ -29,3 +29,9 @@ To analyse a Windows NTUSER.DAT Registry hive and identify forensic artefacts re
 
 ## Conclusion
 This lab demonstrated how Windows Registry artefacts within NTUSER.DAT can be analysed during a digital forensic investigation to identify recent documents, application activity, accessed locations, and historical user activity.
+
+## Evidence
+
+### SHA-256 Evidence Verification
+
+![NTUSER.DAT SHA-256 Verification](01_NTUSER_DAT_SHA256_Verification.png)
