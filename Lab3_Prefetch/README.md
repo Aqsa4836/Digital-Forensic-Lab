@@ -49,10 +49,13 @@ Prefetch evidence should be correlated with other forensic artefacts before draw
 
 The Prefetch evidence file was verified using SHA-256 hashing to support evidence integrity.
 
-![SHA-256 Verification](01_SHA256_Verification.png)
+![SHA-256 Verification](./01_SHA256_Verification.png.PNG)
 
 ### 2. Prefetch Analysis
 
 The Prefetch parser identified the executable name, recorded run count, last execution timestamp, and volume information.
+
+![Prefetch Analysis](./02_Prefetch_Analysis.png.PNG)
+
 
 ![Prefetch Analysis](02_Prefetch_Analysis.png)
