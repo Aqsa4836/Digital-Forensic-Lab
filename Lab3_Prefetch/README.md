@@ -42,12 +42,17 @@ This lab demonstrated how Windows Prefetch artefacts can provide useful evidence
 
 Prefetch evidence should be correlated with other forensic artefacts before drawing conclusions about a user's activity.
 
+
 ## Evidence
 
 ### 1. SHA-256 Evidence Verification
 
-_Add your SHA-256 screenshot here._
+The Prefetch evidence file was verified using SHA-256 hashing to support evidence integrity.
+
+![SHA-256 Verification](01_SHA256_Verification.png)
 
 ### 2. Prefetch Analysis
 
-_Add your Prefetch parser screenshot here._
+The Prefetch parser identified the executable name, recorded run count, last execution timestamp, and volume information.
+
+![Prefetch Analysis](02_Prefetch_Analysis.png)
