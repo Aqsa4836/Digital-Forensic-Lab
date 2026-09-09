@@ -123,15 +123,15 @@ The exercise also demonstrated the importance of correlating multiple artefacts 
 
 ### Evidence Screenshot 1 – Browser History
 
-![Browser History](./01_Browser_History.png)
+![Browser History](./01_Browser_History.PNG)
 
 ### Evidence Screenshot 2 – Search Terms
 
-![Search Terms](./02_Search_Terms.png)
+![Search Terms](./02_Search_Terms.PNG)
 
 ### Evidence Screenshot 3 – Browser Timeline
 
-![Browser Timeline](./03_Browser_Timeline.png)
+![Browser Timeline](./03_Browser_Timeline.PNG)
 
 ### Evidence Screenshot 4 – Visit Relationships
 
@@ -139,4 +139,4 @@ The exercise also demonstrated the importance of correlating multiple artefacts 
 
 ### Evidence Screenshot 5 – Download Evidence
 
-![Download Evidence](./05_Download_Evidence.png)
+![Download Evidence](./05_Download_Evidence.PNG)
