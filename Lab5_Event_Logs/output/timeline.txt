@@ -1,0 +1,40 @@
+Windows Event Log Forensic Timeline
+===================================
+
+2019-03-18 11:06:25.485214
+Event ID: 1102
+Event Record ID: 432901
+Activity: Security audit log cleared
+User: EXAMPLE\user01
+Computer: PC01.example.corp
+
+2019-03-18 11:06:29.911579
+Event ID: 4624
+Event Record ID: 432903
+Activity: Successful logon
+User: EXAMPLE\user01
+Logon Type: 9
+
+2019-03-18 11:06:29.911579
+Event ID: 4672
+Event Record ID: 432904
+Activity: Special privileges assigned
+User: EXAMPLE\user01
+
+2019-03-18 11:06:29.911579
+Event ID: 4688
+Event Record ID: 432905
+Activity: Process creation
+Process: C:\Windows\System32\cmd.exe
+
+2019-03-18 11:06:29.961651
+Event ID: 4688
+Event Record ID: 432906
+Activity: Process creation
+Process: C:\Windows\System32\conhost.exe
+
+2019-03-18 11:06:46.305151
+Event ID: 4688
+Event Record ID: 433078
+Activity: Process creation
+Process: C:\Windows\System32\dllhost.exe

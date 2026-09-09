@@ -1,0 +1,48 @@
+Lab 5 - Windows Event Log Forensics
+===================================
+
+Key Findings
+
+1. Event ID 1102
+The Windows Security audit log was cleared on PC01.example.corp at
+2019-03-18 11:06:25.485214. The recorded subject was EXAMPLE\user01.
+
+2. Event ID 4624
+A successful Logon Type 9 (NewCredentials) event was recorded for
+EXAMPLE\user01 at 2019-03-18 11:06:29.911579.
+
+3. Event ID 4672
+The same user received special privileges including:
+SeSecurityPrivilege
+SeTakeOwnershipPrivilege
+SeLoadDriverPrivilege
+SeBackupPrivilege
+SeRestorePrivilege
+SeDebugPrivilege
+SeSystemEnvironmentPrivilege
+SeImpersonatePrivilege
+
+4. Event ID 4688
+Three process creation events were identified:
+- C:\Windows\System32\cmd.exe
+- C:\Windows\System32\conhost.exe
+- C:\Windows\System32\dllhost.exe
+
+5. Timeline Correlation
+The Security log was cleared approximately 4.4 seconds before the
+4624 successful logon event. The 4624, 4672 and first 4688 events
+occurred at the same recorded timestamp.
+
+Forensic Interpretation
+
+The sequence is suspicious and warrants further investigation.
+However, these events alone do not prove malicious activity or
+malicious intent. Additional evidence would be required for
+confirmation.
+
+Limitations
+
+This analysis is based on the available events in the selected EVTX
+sample. Additional Windows logs, endpoint artefacts, process
+command-line information, network evidence and other forensic
+artefacts would be required for a complete investigation.

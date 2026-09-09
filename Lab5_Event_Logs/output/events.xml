@@ -1,0 +1,172 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}"></Provider>
+<EventID Qualifiers="">1102</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>104</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4020000000000000</Keywords>
+<TimeCreated SystemTime="2019-03-18 11:06:25.485214"></TimeCreated>
+<EventRecordID>432901</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="856" ThreadID="2200"></Execution>
+<Channel>Security</Channel>
+<Computer>PC01.example.corp</Computer>
+<Security UserID=""></Security>
+</System>
+<UserData><LogFileCleared xmlns:auto-ns3="http://schemas.microsoft.com/win/2004/08/events" xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog"><SubjectUserSid>S-1-5-21-1587066498-1489273250-1035260531-1106</SubjectUserSid>
+<SubjectUserName>user01</SubjectUserName>
+<SubjectDomainName>EXAMPLE</SubjectDomainName>
+<SubjectLogonId>0x00000000018a7875</SubjectLogonId>
+</LogFileCleared>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"></Provider>
+<EventID Qualifiers="">4624</EventID>
+<Version>0</Version>
+<Level>0</Level>
+<Task>12544</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8020000000000000</Keywords>
+<TimeCreated SystemTime="2019-03-18 11:06:29.911579"></TimeCreated>
+<EventRecordID>432903</EventRecordID>
+<Correlation ActivityID="{661f2d37-d535-43f5-bae0-06be7e6614d7}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="524" ThreadID="2884"></Execution>
+<Channel>Security</Channel>
+<Computer>PC01.example.corp</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+<Data Name="SubjectUserName">user01</Data>
+<Data Name="SubjectDomainName">EXAMPLE</Data>
+<Data Name="SubjectLogonId">0x00000000018a7875</Data>
+<Data Name="TargetUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+<Data Name="TargetUserName">user01</Data>
+<Data Name="TargetDomainName">EXAMPLE</Data>
+<Data Name="TargetLogonId">0x0000000004530f0f</Data>
+<Data Name="LogonType">9</Data>
+<Data Name="LogonProcessName">seclogo</Data>
+<Data Name="AuthenticationPackageName">Negotiate</Data>
+<Data Name="WorkstationName"></Data>
+<Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="TransmittedServices">-</Data>
+<Data Name="LmPackageName">-</Data>
+<Data Name="KeyLength">0</Data>
+<Data Name="ProcessId">0x000003ec</Data>
+<Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+<Data Name="IpAddress">::1</Data>
+<Data Name="IpPort">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"></Provider>
+<EventID Qualifiers="">4672</EventID>
+<Version>0</Version>
+<Level>0</Level>
+<Task>12548</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8020000000000000</Keywords>
+<TimeCreated SystemTime="2019-03-18 11:06:29.911579"></TimeCreated>
+<EventRecordID>432904</EventRecordID>
+<Correlation ActivityID="{661f2d37-d535-43f5-bae0-06be7e6614d7}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="524" ThreadID="2884"></Execution>
+<Channel>Security</Channel>
+<Computer>PC01.example.corp</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+<Data Name="SubjectUserName">user01</Data>
+<Data Name="SubjectDomainName">EXAMPLE</Data>
+<Data Name="SubjectLogonId">0x0000000004530f0f</Data>
+<Data Name="PrivilegeList">SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"></Provider>
+<EventID Qualifiers="">4688</EventID>
+<Version>1</Version>
+<Level>0</Level>
+<Task>13312</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8020000000000000</Keywords>
+<TimeCreated SystemTime="2019-03-18 11:06:29.911579"></TimeCreated>
+<EventRecordID>432905</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="48"></Execution>
+<Channel>Security</Channel>
+<Computer>PC01.example.corp</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="SubjectUserSid">S-1-5-18</Data>
+<Data Name="SubjectUserName">PC01$</Data>
+<Data Name="SubjectDomainName">EXAMPLE</Data>
+<Data Name="SubjectLogonId">0x00000000000003e7</Data>
+<Data Name="NewProcessId">0x00000440</Data>
+<Data Name="NewProcessName">C:\Windows\System32\cmd.exe</Data>
+<Data Name="TokenElevationType">%%1936</Data>
+<Data Name="ProcessId">0x00000448</Data>
+<Data Name="CommandLine"></Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"></Provider>
+<EventID Qualifiers="">4688</EventID>
+<Version>1</Version>
+<Level>0</Level>
+<Task>13312</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8020000000000000</Keywords>
+<TimeCreated SystemTime="2019-03-18 11:06:29.961651"></TimeCreated>
+<EventRecordID>432906</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="48"></Execution>
+<Channel>Security</Channel>
+<Computer>PC01.example.corp</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="SubjectUserSid">S-1-5-18</Data>
+<Data Name="SubjectUserName">PC01$</Data>
+<Data Name="SubjectDomainName">EXAMPLE</Data>
+<Data Name="SubjectLogonId">0x00000000000003e7</Data>
+<Data Name="NewProcessId">0x00000370</Data>
+<Data Name="NewProcessName">C:\Windows\System32\conhost.exe</Data>
+<Data Name="TokenElevationType">%%1936</Data>
+<Data Name="ProcessId">0x00000764</Data>
+<Data Name="CommandLine"></Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"></Provider>
+<EventID Qualifiers="">4688</EventID>
+<Version>1</Version>
+<Level>0</Level>
+<Task>13312</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8020000000000000</Keywords>
+<TimeCreated SystemTime="2019-03-18 11:06:46.305151"></TimeCreated>
+<EventRecordID>433078</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="48"></Execution>
+<Channel>Security</Channel>
+<Computer>PC01.example.corp</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="SubjectUserSid">S-1-5-18</Data>
+<Data Name="SubjectUserName">PC01$</Data>
+<Data Name="SubjectDomainName">EXAMPLE</Data>
+<Data Name="SubjectLogonId">0x00000000000003e7</Data>
+<Data Name="NewProcessId">0x00000f6c</Data>
+<Data Name="NewProcessName">C:\Windows\System32\dllhost.exe</Data>
+<Data Name="TokenElevationType">%%1936</Data>
+<Data Name="ProcessId">0x00000278</Data>
+<Data Name="CommandLine"></Data>
+</EventData>
+</Event>
+
